@@ -166,6 +166,7 @@ transform: translate(-50%, -50%);
     color: white;
     margin-top: 50px;
     text-align: center;
+    overflow: hidden;
 }
 .membership h1 {
     text-align: center;
@@ -183,7 +184,6 @@ transform: translate(-50%, -50%);
 
 .membership>button {
     display: block;
-    margin-top: 50px;
     margin: 0 auto;
 }
 
