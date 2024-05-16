@@ -1,0 +1,242 @@
+header {
+background-image: url(image/Object.jpg);
+background-repeat: repeat-x;
+background-position: center;
+background-size: cover;
+}
+
+body{
+    margin: 0px;
+    padding: 0px
+}
+
+
+nav{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+li {
+    display: inline;
+     margin-right: 10px;
+     margin-left: 10px;
+     text-decoration: none;
+     color: white;
+     text-transform: uppercase;
+}
+
+#navBar {
+    margin-left: 1000px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.header-data {
+    text-align: center;
+}
+
+#GetSchooled {
+    font-size: 120px;
+    font-family: sans-serif;
+    color: white;
+    margin-bottom: 5px;
+}
+
+#emotions {
+    word-spacing: normal;
+    font-size: 22px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding-top: 0;
+}
+
+button {
+    color: white;
+    background-color: #c271ff;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    padding: 15px 32px;
+    font-size: 12px;
+    border-radius: 25px;
+}
+
+.pros {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.proImage {
+    text-align: center;
+}
+.proImage img {
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 50px;
+}
+.proNames {
+    text-align: center;
+}
+.proNames h3 {
+    display: inline-block;
+    margin: 0 50px;
+    color: white;
+}
+.proAwards {
+    text-align: center;
+}
+.proAwards p {
+    display: inline-block;
+    margin: 0 50px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.secondPage {
+    align-items: center;
+    background-color: #c271ff;
+    display: flex;
+}
+.secondPage img {
+    border-radius: 50%;
+    margin-right: 50px;
+    text-align: right;
+    margin-left: 330px;
+}
+.quote {
+    text-align: right;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+#tutorials {
+    text-align: center;
+    color: black;
+}
+
+.DiffTutorials {
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.childTutorial {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.childTutorial h3 {
+    margin-top: 0;
+}
+
+.childTutorial img  {
+    margin-bottom: 10px;
+}
+
+.playButton img {
+top: 50px;
+bottom: 50px;
+position: absolute;
+transform: translate(-50%, -50%);
+}
+
+.image-container {
+    position: relative; /* Set position to relative */
+    display: inline-block;
+}
+
+.childTutorial .ratings {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.membership {
+    background-color: rgb(12, 4, 24);
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+.membership h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.childMembership {
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.membership>button {
+    display: block;
+    margin-top: 50px;
+    margin: 0 auto;
+}
+
+.faq {
+    background-color: white;
+}
+
+.faq h1 {
+    text-align: center;
+    color: black;
+}
+.parent {
+    display: flex;
+}
+
+.child {
+    flex: 1;
+    padding: 0 10px; /* Add spacing between columns */
+}
+
+.child > div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; /* Add spacing between rows */
+}
+
+.child > div > div {
+    margin-bottom: 10px; /* Add spacing between h2 and p */
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.left-section img {
+    margin-right: 10px; /* Add space between logo and text */
+}
+
+.right-section img {
+    margin-left: 10px; /* Add space between images */
+}
+
+
